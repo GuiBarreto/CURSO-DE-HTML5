@@ -50,7 +50,8 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: 0px;
-    left: 100px;
+    left: 10px;
+    
 }
 
 nav#menu li {
