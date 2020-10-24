@@ -26,8 +26,8 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 750px;
-    top: 70px;
+    left: 960px;
+    top: 85px;
     
 }
 
@@ -138,12 +138,40 @@ nav#menu li:hover {
      border-spacing: 0px;
      margin-left: auto;
      margin-right: auto;
+
  }
 
  table#tabelaspec td {
      border: 1px solid #606060;
      padding: 10px;
+     text-align: center;
+     vertical-align: middle;
  }
+
+table#tabelaspec td.ce {
+    background-color: #606060;
+    color: #ffffff;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
 
  aside#lateral {
      display: block;
