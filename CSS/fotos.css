@@ -19,8 +19,9 @@ ul#album-fotos li {
 
 }
 
-ul#album-fotos li#foto01 {
-    background: url('../imagens/galeria-01.jpg') no-repeat;
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
 
 ul#album-fotos li#foto02 {
